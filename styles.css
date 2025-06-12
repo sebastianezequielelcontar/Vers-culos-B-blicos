@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Georgia', serif;
+  background: linear-gradient(to right, #f9f7f6, #e3e0dc);
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  padding: 2rem;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #6b4f3c;
+}
+
+.verse {
+  font-size: 1.2rem;
+  margin: 1.5rem 0;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+button {
+  padding: 0.7rem 1.2rem;
+  font-size: 1rem;
+  background-color: #a47c64;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #8c6a53;
+}
